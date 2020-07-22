@@ -3,7 +3,7 @@
 <head>
 <title>WELCON EQUIPMENTS INDIA PVT LIMITED</TITLE>
 <style>
-body{background: url(https://4.bp.blogspot.com/-s8Fnwo5rz6U/XNow8wYa-vI/AAAAAAAAJn8/1VZEIcKFATIlOZfe0XWGsywEyMMUsSICACLcBGAs/s640/comingsoon.jpg); background-size: 100% 400%; }
+body{background: url(https://4.bp.blogspot.com/-s8Fnwo5rz6U/XNow8wYa-vI/AAAAAAAAJn8/1VZEIcKFATIlOZfe0XWGsywEyMMUsSICACLcBGAs/s640/comingsoon.jpg); background-size: 100% 800%; }
 </style>
 <style>
 .button {
@@ -33,10 +33,68 @@ body{background: url(https://4.bp.blogspot.com/-s8Fnwo5rz6U/XNow8wYa-vI/AAAAAAAA
 <style>
     a { color: red; } /* CSS link color */
   </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<style type="text/css">
+.mobile{ display: none;}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .desktop{ display: none;}}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ .mobile{ display: inline;}}
+</style>
 </head>
 <body>
-<br><table border="0" align="right"><tr><td><a href="Home.html" class="button"><b><b>Home</b></b></a>
+<div class="mobile">
+<center><center><table><td><h4>WELCON EQUIPMENTS INDIA PVT LIMITED<br></h1><pre>           (the water treatment people)</pre></td>
+
+<td><div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Home.html" class="button"><b><b>Home</b></b></a>
 <a href="OurProducts.html" class="button"><b>Our Products </b> </a>
 <a href="reverse.html" class="button"><b>RO/UF/Nano/Psf/ACF  </b></a>
 <a href="CCDMCIpH.html" class="button"><b>CC/DM/CI/pH  </b></a>
@@ -45,9 +103,33 @@ body{background: url(https://4.bp.blogspot.com/-s8Fnwo5rz6U/XNow8wYa-vI/AAAAAAAA
 <a href="Catalog.html" class="button"><b>Catalog</b> </a>
 <a href="Our Policies.html" class="button"><b>Our Policies</b> </a>
 <a href="About Us.html" class="button"><b>About Us </b></a>
-</td></tr></table>
-<br>
+</div>
 
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script></td></tr></table></center>
+</div>
+<div class="desktop">
+<center><table><td><h2>WELCON EQUIPMENTS INDIA PVT LIMITED<br></h1><pre>                                 (the water treatment people)</pre></td></tr></table></center>
+<br><table border="0" align="right"><tr><td><a href="Home.html" class="button"><b><b>Home</b></b></a>
+<a href="OurProducts.html" class="button"><b>Our Products </b> </a>
+<a href="reverse.html" class="button"><b>RO/UF/Nano/Psf/ACF  </b></a>
+<a href="CCDMClpH.html" class="button"><b>cc/dm/cl/ph  </b></a>
+<a href="Other Products.html" class="button"><b>Other Products</b> </a>
+<a href="Contact Us.html" class="button"><b>Contact Us</b> </a>
+<a href="Catalog.html" class="button"><b>Catalog</b> </a>
+<a href="Our Policies.html" class="button"><b>Our Policies</b> </a>
+<a href="About Us.html" class="button"><b>About Us </b></a>
+</td></tr></table>
+</div>
 
 </body>
 </html>
