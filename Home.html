@@ -5,7 +5,59 @@
 <head>
   <title>WELCON EQUIPMENTS INDIA PVT LIMITED</TITLE>
   <link href='https://fonts.googleapis.com/css?family=Courier Prime' rel='stylesheet'>
-  <style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+  
+<style>
     * {box-sizing: border-box;}
     body {
       margin: 0;
@@ -179,7 +231,35 @@
             <pre>
     (the water treatment people)
   </pre>
-        </td>
+        </td><td><div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html" ><b><b>Home</b></b></a>
+        <a href="OurProducts.html" ><b>Our Products </b> </a>
+        <a href="reverse.html" ><b>RO/UF/Nano/Psf/ACF </b></a>
+        <a href="CCDMCIpH.html"><b>CC/DM/CI/pH </b></a>
+        <a href="Other Products.html"><b>Other Products</b> </a>
+        <a href="Contact Us.html"><b>Contact Us</b> </a>
+        <a href="Catalog.html"><b>Catalog</b> </a>
+        <a href="Our Policies.html"><b>Our Policies</b> </a>
+        <a href="About Us.html"><b>About Us </b></a>
+      
+</div>
+<pre>                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script></pre></td>
       </tr>
     </table>
   </center>
@@ -278,8 +358,8 @@
 
    <footer  align="center" id="footer_contain" >
       <br>
-      "QUALITY"-The Guiding Principle Behind Every Action<br>You Can e-mail us at: <a
-        href="#">welconwater@dataone.in</a><br>Tuesday March 4, 2008 14:47<br> WELCON-the water treatment people
+      <font color="white">"QUALITY"-The Guiding Principle Behind Every Action<br>You Can e-mail us at: <a
+        href="#">welconwater@dataone.in</a><br>Tuesday March 4, 2008 14:47<br> WELCON-the water treatment people</font>
       
         <br>
   </footer>
