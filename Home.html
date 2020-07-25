@@ -7,57 +7,21 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
   <link href='https://fonts.googleapis.com/css?family=Courier Prime' rel='stylesheet'>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.bttn {
-  border-radius: 12px;
-  background-color: #756F6E;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 8px;
-  padding: 8px;
-  width: 70px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.bttn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.bttn span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.bttn:hover span {
-  padding-right: 25px;
-}
-
-.bttn:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-</style>  
-<style type="text/css" class="init">
+  <style type="text/css" class="init">
     * {
       box-sizing: border-box;
     }
 
     body {
+      background-image: url('https://thumbs.gfycat.com/SlimExhaustedKudu-size_restricted.gif');
+      background-size: cover;
+      padding:0;
+      margin:0;
       margin: 0;
       overflow: auto;
-      background: #f2f2f2;
+    color: #f1f1f1;
     }
+    
 
     html {
       scroll-behavior: smooth;
@@ -76,56 +40,39 @@
       visibility: hidden;
     }
 
-    #bgimage {
-      width: 6300px;
-      max-width: 100%;
-      height: auto;
-      border: 2px solid black;
-      background: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&w=1000&q=80");
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-    }
-
-    #bgimage {
-      width: 2000px;
-      max-width: 100%;
-      margin-top: 45px;
-      height: auto;
-      border: 2px solid black;
-      background: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&w=1000&q=80");
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-
-    }
 
     #main {
       background: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&w=1000&q=80");
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       max-width: 100%;
       height: auto;
+      
     }
 
     #heading {
       font-size: 3em;
     }
 
-
     #silverimage {
-      margin-left: 1200px;
-      margin-top: -160px;
-      margin-bottom: 10px;
-      display: flex;
-      max-width: 100%;
-      height: auto;
+    
+    
+      text-align: end;
+      max-width: 250px;
+      height: 140px;
+      position: relative;
+      right: 0;
+      margin-left: 850px;
+       margin-top: -150px;
     }
 
     #image1 {
-      width: 400px;
-      margin: 10px;
-      display: flex;
-      max-width: 100%;
-      height: auto;
-      float: center;
+      text-align: end;
+      max-width: 250px;
+      height: 250px;
+      position: top;
+      right: 0;
+      margin-left: 850px;
+       margin-top: -350px;
     }
 
     #image1 {
@@ -153,7 +100,7 @@
       width: 100%;
       height: auto;
       position: relative;
-      background: url(https://img.freepik.com/free-photo/old-grunge-cement-wall-backgrounds_34552-195.jpg?size=626&ext=jpg) left top repeat-x;
+      background: url(footer_bg.gif) left top repeat-x;
       background-color: rgb(13, 13, 14);
     }
 
@@ -163,14 +110,6 @@
       width: 24.99999%;
     }
 
-    @media only screen and (max-width: 1500px) {
-      #silverimage {
-        margin: 10px 660px 1px 150px;
-        float: center;
-        max-width: 100%;
-        height: auto;
-      }
-    }
 
     @media only screen and (max-width: 700px) {
       #silverimage {
@@ -281,7 +220,7 @@
 
 
       #silverimage {
-        width: 300px;
+        width: 100px;
         margin: 20px;
         display: flex;
         max-width: 100%;
@@ -349,30 +288,39 @@
   </style>
   <style>
     .button {
-      background-color: #4CAF50;
-      border: none;
-      color: white;
-      padding: 10px 17px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 10px;
-      margin: 4px 2px;
-      cursor: pointer;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button {border-radius: 8px;}
+ .button{
+        background: #756F6E;
     }
 
-    .button {
-      border-radius: 12px;
-    }
-
-    .button {
-      background: #756F6E;
-    }
     /** on active **/
 
-    .button:focus {
-      background: #F0C2EE;
-    }    /* CSS link color */
+.button:focus{
+        background: #F0C2EE;
+    }
+</style>
+  <STYLE>
+    A {
+      text-decoration: none;
+    }
+  </STYLE>
+  <style>
+    a {
+      color: #A9A7A7;
+    }
+
+    /* CSS link color */
   </style>
 
 </head>
@@ -382,14 +330,12 @@
 
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="About Us.html">About</a>
-    <a href="OurProducts.html">Services</a>
-    <a href="reverse.html">RO/UF/Nano/Psf/ACF </a>
-    <a href="Catalog.html">Clients</a>
-<a href="Our Policies.html">Our Policies </a>
-    <a href="Contact Us.html">Contact</a>
-    <a onclick="darkmode()"> Darkmode </a>
-    <a onclick="whitemode()"> Normalmode </a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+      <a onclick="darkmode()"> Darkmode </a>
+      <a onclick="whitemode()"> Normalmode </a>
     </div>
 
     <div id="menu" align="right">
@@ -405,7 +351,7 @@
         </td>
         <td>
           <h1 id="heading"> WELCON EQUIPMENTS INDIA PVT LTD<br></h1>
-          <pre>(the water treatment people)</pre>
+          <pre> (the water treatment people)</pre>
         </td>
       </tr>
     </table>
@@ -424,7 +370,7 @@
       </td>
     </tr>
   </table>
-
+<br>
   <center id="bgimage" style="filter: blur(20px)">
     <div>
       <table>
@@ -441,7 +387,7 @@
               the
               web makes the process even more exciting..
               <br>
-              <a href="About Us.html" class="bttn"><span>Know More </span></a>
+              <a href="About Us.html" class="button"><b>Know more </b></a>
             </h3>
           </td>
           <br>
@@ -462,7 +408,7 @@
               <BR>
               INDIA
               <br>
-              <a href="About Us.html" class="bttn"><span>Know More </span></a>
+              <a href="About Us.html" class="button"><b>Know more </b></a>
             </h3>
             </h2>
             </h1>
@@ -472,7 +418,7 @@
     </div>
   </center>
 
-  <div align="left">
+  <div >
     <h1>Welcome to Welcon Equipments!</h1>
     <h2>Creating Value by deploying advanced</h2>
     <h3 id="text">Water and Waste Water Technologies to develop Custom-made solutions for every requirment</h3>
@@ -483,20 +429,20 @@
   <div class='part-2' id="font">
     <p id="fullscreen">
       <br>
-      &ensp;&ensp;&ensp; We, at WELCON EUIPMENTS INDIA PRIVATE LEUITED, take pride in introducing ourselves as one
-      of the leading solution providers in the field of water treatment in India. Having started in 1985, the
-      company has gained expertise over the years, which is reflected in all our equipments spread across the
-      country. TOTAL CUSTOMER SATISFACTION in every respect of our dealings is the guiding principle behind WELCOITS
-      operations. We focus on the individual needs of the customer and design, manufacture, erect and commission
-      custom-made water treatment plant. We have dedicated ourselves to the water abd waste water segments and our
-      customer base stretches from Sugar Industry to Beverages, Distilleries, Entertainment, ,Engineering, Hotels
-      Pharmaceuticals, Govt.Sectors.
+      &ensp;&ensp;&ensp; We, at WELCON EUIPMENTS INDIA PRIVATE LEUITED, take pride in introducing<br> ourselves as one
+      of the leading solution providers in the field of water <br>treatment in India. Having started in 1985, the
+      company has gained expertise <br>over the years, which is reflected in all our equipments spread across the
+      <br>country. TOTAL CUSTOMER SATISFACTION in every respect of our dealings is the<br> guiding principle behind WELCOITS
+      operations. We focus on the individual<br> needs of the customer and design, manufacture, erect and commission
+      custom-made<br> water treatment plant. We have dedicated ourselves to the water and waste water<br> segments and our
+      customer base stretches from Sugar Industry to Beverages,<br> Distilleries, Entertainment, ,Engineering, Hotels
+      Pharmaceuticals, Govt.Sector.
     </p>
   </div>
 
-  <div align="left" id="chat" class="elfsight-app-adb65b8e-7bbb-4956-bd0c-7d028a19f187"></div>
+  <div id="chat" class="elfsight-app-adb65b8e-7bbb-4956-bd0c-7d028a19f187"></div>
 
-  <div align="center">
+  <div>
     <img id="image1" style="filter: blur(20px);"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzMp-ifxU95N3RxaIQTUwYCEEG0umAcRMFjw&usqp=CAU">
   </div>
@@ -504,8 +450,8 @@
 
   <footer align="center" id="footer_contain">
     <br>
-   <font color="white"> "QUALITY"-The Guiding Principle Behind Every Action<br>You Can e-mail us at: <a
-      href="#">welconwater@dataone.in</a><br>Tuesday March 4, 2008 14:47<br> WELCON-the water treatment people</font>
+    "QUALITY"-The Guiding Principle Behind Every Action<br>You Can e-mail us at: <a
+      href="#">welconwater@dataone.in</a><br>Tuesday March 4, 2008 14:47<br> WELCON-the water treatment people
     <br>
   </footer>
 
